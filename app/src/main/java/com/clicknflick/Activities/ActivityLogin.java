@@ -66,7 +66,7 @@ public class ActivityLogin extends AppCompatActivity {
     }
 
     public void loginCancel(View view) {
-        mUsername.setText("");
+        mUsername.setText(" ");
         mPassword.setText("");
     }
 
