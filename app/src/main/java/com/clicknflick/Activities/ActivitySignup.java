@@ -77,7 +77,7 @@ public class ActivitySignup extends AppCompatActivity {
     }
 
     public void signupCancel(View view){
-        mEmail.setText("");
+        mEmail.setText(" ");
         mMobile.setText("");
         mPassword.setText("");
     }
